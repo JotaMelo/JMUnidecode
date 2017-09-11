@@ -1,8 +1,8 @@
 # JMUnidecode
 
-[![Version](https://img.shields.io/cocoapods/v/JMUnidecode-Swift.svg?style=flat)](http://cocoapods.org/pods/JMUnidecode-Swift)
-[![License](https://img.shields.io/cocoapods/l/JMUnidecode-Swift.svg?style=flat)](http://cocoapods.org/pods/JMUnidecode-Swift)
-[![Platform](https://img.shields.io/cocoapods/p/JMUnidecode-Swift.svg?style=flat)](http://cocoapods.org/pods/JMUnidecode-Swift)
+[![Version](https://img.shields.io/cocoapods/v/JMUnidecode.svg?style=flat)](http://cocoapods.org/pods/JMUnidecode)
+[![License](https://img.shields.io/cocoapods/l/JMUnidecode.svg?style=flat)](http://cocoapods.org/pods/JMUnidecode)
+[![Platform](https://img.shields.io/cocoapods/p/JMUnidecode.svg?style=flat)](http://cocoapods.org/pods/JMUnidecode)
 
 
 `JMUnidecode` is an Objective-C port of the Python library [unidecode](https://github.com/iki/unidecode) (which is a Python port of the Text::Unidecode Perl module). It's currently used on [jMusic's](https://itunes.apple.com/app/jmusic-for-spotify/id1118976183) matching algorithm and I've finally decided to open source it. The same tests from the Python version were also ported.
