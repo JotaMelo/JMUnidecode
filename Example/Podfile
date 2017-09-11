@@ -1,5 +1,3 @@
-use_frameworks!
-
 target 'JMUnidecode_Example' do
   pod 'JMUnidecode', :path => '../'
 

@@ -1,0 +1,16 @@
+PODS:
+  - JMUnidecode (1.0.0)
+
+DEPENDENCIES:
+  - JMUnidecode (from `../`)
+
+EXTERNAL SOURCES:
+  JMUnidecode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMUnidecode: 5104a82deb578a264bab8ab3069f302569f9657f
+
+PODFILE CHECKSUM: be49425c24663710e620c2a60768d24cb7b8dfc8
+
+COCOAPODS: 1.2.1.rc.1

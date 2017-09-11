@@ -7,23 +7,21 @@
 //
 
 #import "JMViewController.h"
+#import "JMUnidecode.h"
 
-@interface JMViewController ()
+@interface JMViewController () <UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
 @implementation JMViewController
 
-- (void)viewDidLoad
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.resultLabel.text = [JMUnidecode unidecode:textField.text];
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end
